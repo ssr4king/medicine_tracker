@@ -14,7 +14,14 @@ A Flutter-based application designed to help users manage their medication sched
 
 ## Screenshots
 
-*(Placeholder for screenshots)*
+
+<div style="display: flex; flex-direction: row; overflow-x: auto; gap: 10px;">
+  <img src="screenshots/screen_1.jpg" width="200" />
+  <img src="screenshots/screen_2.jpg" width="200" />
+  <img src="screenshots/screen_3.jpg" width="200" />
+  <img src="screenshots/screen_4.jpg" width="200" />
+</div>
+
 
 ## How to Run Locally
 
