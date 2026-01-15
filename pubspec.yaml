@@ -1,0 +1,46 @@
+name: medicine_tracker
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  provider: ^6.1.2
+  flutter_local_notifications: ^15.1.1
+  permission_handler: ^10.0.0
+  android_alarm_manager_plus: ^2.0.0
+  timezone: ^0.9.4
+  intl: ^0.18.0
+  uuid: ^4.4.0
+  google_fonts: ^6.2.0
+  file_picker: ^6.1.1
+  image_picker: 0.8.7+4
+  shared_preferences: 2.1.2
+  url_launcher: 6.1.11
+  pdf: ^3.11.3
+  printing: ^5.12.0
+  path_provider: 2.0.15
+
+dependency_overrides:
+  flutter_plugin_android_lifecycle: 2.0.7
+  image_picker_android: 0.8.8
+  path_provider_android: 2.2.1
+  url_launcher_android: 6.2.0
+  shared_preferences_android: 2.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.8
+  hive_generator: ^2.0.1
+
+flutter:
+  uses-material-design: true
